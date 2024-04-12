@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechKnow</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center><h1>TechKnow</h1></center>
+
+
+    <p>
+        A TechKnow é um projeto criado que tem como objetivo de
+        apresentar e igualar o nível de conhecimento das turmas 
+        iniciais dos cursos de tecnologia. 
+    
+<br><br>
+  
+            <button>logar</button>
+            <button>cadastrar</button>
+
+<br><br>
+  
+
+        <!--lOGIN DE USUARIO-->
+
+        <fieldset>
+            <label for="nome">Digite sua senha: </label>
+            <input type="password" name="senha" id="senha" required>
+    
+
+            <label for="nome">E-mail: </label>
+            <input type="e-mail" name="e-mail" required id="e-mail">
+            </fieldset>
+
+
+
+        <!--CADASTRO DE USUARIO-->
+
+        <fieldset right>
+            <legend>Cadastro de usuario</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required id="name">
+            
+<br><br>
+
+            <label for="nome">E-mail: </label>
+            <input type="e-mail" name="e-mail" required id="e-mail">
+            
+<br><br>
+
+            <label for="nome">Telefone: </label>
+            <input type="number" name="Telefone" required id="Telefone">
+
+<br><br>
+
+            <label for="formacao">Formaçao: </label>
+            <select id="formacao">
+            <option value="ensino fundamental">Ensino Fundamental</option>
+            <option value="ensino medio">Ensino Médio</option>
+            <option value="Cursando Ensino Superior">Cursando Ensino Superior</option>
+            <option value="doutorado">Doutorado</option>
+            <option value="mestrado">Mestrado</option>
+            </select>
+
+<br><br>
+ 
+            <label for="idade">Data de nascimento: </label>
+            <input type="date" name="date" id="date" required>
+
+<br><br>
+
+            <label for="nome">Crie uma senha: </label>
+            <input type="password" name="senha" id="senha" required>
+
+        </fieldset>
+    
+        <!--BOTÕES-->
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+
+    
+    
+    </p>
+</body>
+</html>
