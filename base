@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,20 +11,19 @@
 
 
     <p>
-        A TechKnow é um projeto criado que tem como objetivo de<br>
-        apresentar e igualar o nível de conhecimento das turmas<br>
-        iniciais dos cursos de tecnologia. 
+        A TechKnow é um projeto criado por alunos do UniCEUB<br>
+        que tem como objetivo de apresentar e igualar o nível<br>
+        de conhecimento das turmas iniciais nos cursos de tecnologia. 
     
 <br><br>
   
-            <button>logar</button>
-            <button>cadastrar</button>
+            <button>lOGIN</button>
+            <button>CADASTRO</button>
 
 <br><br>
   
 
         <!--lOGIN DE USUARIO-->
-
         <fieldset>
             <label for="nome">E-mail: </label>
             <input type="e-mail" name="e-mail" required id="e-mail">
@@ -38,11 +37,14 @@
             
 
         <!--CADASTRO DE USUARIO-->
-
         <fieldset right>
             <legend>Cadastro de usuario</legend>
             <label for="nome">Nome:</label>
             <input type="text" name="nome" required id="name">
+<br><br>    
+
+            <label for="nome">Sobrenome:</label>
+            <input type="text" name="sobrenome" required id="sobrenome">
             
 <br><br>
 
@@ -75,14 +77,13 @@
             <input type="password" name="senha" id="senha" required>
 
         </fieldset>
+
+
     
         <!--BOTÕES-->
-        
         <button type="submit">Submit</button>
         <button type="reset">Clear</button>
 
     
-    
-    </p>
 </body>
 </html>
