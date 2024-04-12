@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechKnow</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="techknow.css">
 </head>
 <body>
     <center><h1>TechKnow</h1></center>
@@ -26,15 +26,16 @@
         <!--lOGIN DE USUARIO-->
 
         <fieldset>
-            <label for="nome">Digite sua senha: </label>
-            <input type="password" name="senha" id="senha" required>
-    
-
             <label for="nome">E-mail: </label>
             <input type="e-mail" name="e-mail" required id="e-mail">
             </fieldset>
 
 
+            <label for="nome">Digite sua senha: </label>
+            <input type="password" name="senha" id="senha" required>
+        
+
+            
 
         <!--CADASTRO DE USUARIO-->
 
@@ -55,13 +56,12 @@
 
 <br><br>
 
-            <label for="formacao">Formaçao: </label>
+            <label for="formacao">Formação: </label>
             <select id="formacao">
             <option value="ensino fundamental">Ensino Fundamental</option>
-            <option value="ensino medio">Ensino Médio</option>
-            <option value="Cursando Ensino Superior">Cursando Ensino Superior</option>
-            <option value="doutorado">Doutorado</option>
-            <option value="mestrado">Mestrado</option>
+            <option value="ensino medio">Ensino Médio Completo</option>
+            <option value="cursando ensino medio">Cursando Ensino Médio</option>
+            <option value="cursando Ensino Superior">Cursando Ensino Superior</option>
             </select>
 
 <br><br>
