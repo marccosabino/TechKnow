@@ -1,3 +1,6 @@
-font {
-    font: calibri;
+h1 {
+    font-family: calibri;
+}
+p {
+    font-family: calibri;
 }
