@@ -12,13 +12,14 @@
     </div>
 
     
-    <div class="">
+    <div class="paragrafo">
         A TechKnow é um projeto criado por alunos do UniCEUB<br>
         que tem como objetivo de apresentar e igualar o nível<br>
         de conhecimento das turmas iniciais nos cursos de tecnologia. 
     </div>
 <br><br>
-        <div class="button">
+        <div class="button"></div>
+        <input type="submit" type="file">
             <button>lOGIN</button>
             <button>CADASTRO</button>
         </div>
