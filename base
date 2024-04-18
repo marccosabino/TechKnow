@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="techknow.css">
 </head>
 <body>
+    <div class="title">
     <center><h1>TechKnow</h1></center>
+    </div>
 
-
-    <p>
+    
+    <div class="">
         A TechKnow é um projeto criado por alunos do UniCEUB<br>
         que tem como objetivo de apresentar e igualar o nível<br>
         de conhecimento das turmas iniciais nos cursos de tecnologia. 
-    
+    </div>
 <br><br>
-  
+        <div class="button">
             <button>lOGIN</button>
             <button>CADASTRO</button>
-
+        </div>
 <br><br>
   
 
