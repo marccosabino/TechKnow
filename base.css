@@ -1,32 +1,24 @@
 
 body {
     background-color: #000000;
-    color: #993399;
-
-    
+    color: #993399;   
 }
-
-
 .title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #993399;
 }
-
-
-
 .button{
-
-
+  height: 40px;
+  width: 60px;
+  background-color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 10px;
+  border: none;
 }
-
-
-
-
-
-h3 {
-    color: #ff1cc0;
-color: #b131fa;
-color: #4a0074;
-color: #1c3aff
+.paragrafo {
+    font-family: calibri;
+    font-size: 20px;
 }
 
